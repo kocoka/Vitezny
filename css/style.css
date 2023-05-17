@@ -1,0 +1,188 @@
+body {font-family: 'Montserrat', sans-serif;
+      margin: 10px;}
+h1{
+    font-family: 'Oswald', sans-serif;;
+    font-size: 150%;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.header{
+    width: auto;
+    height: 300px;
+    background-image: url(../Images/houba.jpg);
+    background-size: cover;
+}
+
+.header__text{
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    font-size:medium;
+    position: relative;
+    right: 1500px;
+    display: block;
+    border-width: auto;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu__item{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.menu__item:active{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+@keyframes arrive {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(1500px, 0);
+    }
+}
+
+.header__text {
+    animation: arrive 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+} 
+
+.about{
+    margin: 10px 10px 0 10px;
+}
+
+.about__content{
+    font-size: 150%;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about__content::before {
+    content:"";
+    display: block;
+    width: 50%;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about__image img{
+    max-width: 100%;
+    height: auto;
+}
+.about__image {
+    background-color: black;
+}
+
+.trailer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+}
+.trailer__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trailer__text::before {
+    content:"";
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.trailer__image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.contact__description::before {
+    content:"";
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.contact__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer{
+    margin: -10px 10px 10px 10px;
+    border: black solid 1px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+}
+.contact__button {
+   margin-top: 20px;
+   padding: 10px;
+   border: white solid 2px;
+   width: 200px;
+   border-radius: 5px;
+   background-color: white;   
+}
+
+.contact__button:active {
+    background-color: black;
+}
+.contact__button a:active{
+    color: white;
+}
+
+
+
+
+
+
+
+

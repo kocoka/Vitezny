@@ -1,0 +1,54 @@
+body {font-family: 'Montserrat', sans-serif;
+    margin: 10px;}
+h1{
+  font-family: 'Oswald', sans-serif;;
+  font-size: 100%;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+.header{
+    width: auto;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header__items{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.header__image img{
+    max-width: 80%;
+    height: auto;
+}
+
+.menu__item{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.menu__item:active{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.footer{
+    border: black solid 1px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+}
