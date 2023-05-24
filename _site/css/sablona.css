@@ -84,4 +84,45 @@ h1{
         color:rgb(36, 2, 67);
     }
 }
+
+/*
+******************
+O mně
+*******************/
+.aboutme {
+    background-color: black;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme__image img{
+    max-width: 90%;
+}
+.aboutme__list {
+    text-align: left;
+}
+.contact__button--aboutme {
+    margin-top: 20px;
+    padding: 10px;
+    border: white solid 2px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;   
+}
+.contact__button--aboutme a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+}
+.contact__button--aboutme:active {
+    background-color: black;
+}
+.contact__button--aboutme a:active{
+    color: white;
+}
     
