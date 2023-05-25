@@ -144,3 +144,69 @@ O mně
 .aboume__text--h3 {
     margin-bottom: -50px;
 }
+
+@media screen and (min-width: 800px){
+    .aboutme{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size:larger;
+    }
+    .aboutme__text--h3 {
+        grid-column:2/2;
+        grid-row: 1/1;
+    }
+    .text--me {
+        grid-column:1/-2;
+        grid-row:2/2;
+        margin-left: 30px;
+    }
+    .image--1 {
+        grid-column:3/-1;
+        grid-row: 2/2;
+        max-width: 90%;
+    }
+    .image--2 {
+        grid-column: 1/1;
+        grid-row:3/4;
+        max-width: 70%;
+        margin-left: 30px;
+    }
+    .text--work {
+        grid-column: 2/-1;
+        grid-row:3/3;
+        border-right: white solid 3px;
+        border-radius: 3px;
+        text-align: left;
+        padding: 10px;
+        border-left: 0;
+        text-align: left;
+        margin-right: 30px;
+
+    }
+    .text--pickme{
+        grid-column: 1/-2;
+        grid-row: 4/4;
+        margin-left: 30px;
+    }
+    .aboutme__list {
+        grid-column: 3/-1;
+        grid-row: 4/4;
+        
+    }
+    .contact__button--description {
+        grid-column: 1/1;
+        grid-row: 5/5;
+        margin-left: 30px;
+        font-size: 130%;
+    }
+    .image--3{
+        grid-column:2/-1;
+        grid-row:5/6;
+    }
+    .contact__button--aboutme{
+        grid-column: 1/1;
+        grid-row: 5/5;
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+}
