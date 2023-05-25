@@ -233,11 +233,13 @@ h1{
     .about {
        display:flex;
        justify-content: space-between;
+       align-items: center;
        border: black solid 2px;
        
     }
     .about__content {
         max-width: 500px;
+        padding-left: 100px;
     }
     .about__image {
         max-width: 25%;
@@ -280,7 +282,7 @@ h1{
     .about__content{
         max-width: auto;
         font-size: 180%;
-        padding-left: 30px;
+        padding-left: 200px;
     }
     .about{
         margin: 0;
