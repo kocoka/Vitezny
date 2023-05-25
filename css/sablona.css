@@ -92,18 +92,21 @@ O mně
 .aboutme {
     background-color: black;
     color: white;
-    padding: 0 10px 0 10px;
-    font-size: small;
+    padding: 0 15px 0 15px;
+    font-size:medium;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .aboutme__image img{
     max-width: 90%;
 }
 .aboutme__list {
     text-align: left;
+    font-weight: bold;
+    font-size: 110%;
 }
 .contact__button--aboutme {
     margin-top: 20px;
@@ -125,4 +128,19 @@ O mně
 .contact__button--aboutme a:active{
     color: white;
 }
-    
+.aboutme__text {
+    border-left: white solid 3px;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px;
+}
+
+.text--pickme{
+    font-size: 110%;
+}
+.contact__button--description{
+    font-size:large;
+}
+.aboume__text--h3 {
+    margin-bottom: -50px;
+}
