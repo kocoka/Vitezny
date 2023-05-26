@@ -405,15 +405,51 @@ Kontakt
     color: white;
 }
 
-@media  screen and (min-width: 800px) {
+@media  screen and (min-width: 600px) {
     .button--submit button:hover{
         background-color: grey;
         font-weight: bold; 
         border-radius: 10px;
         transform:scale(1.1);
     }
+    .form__field input {
+        max-width: 70%;
+        height: 30px;
+        font-size: 130%;
+        
+    }
+    .form__contact{
+    font-size: 200%;
+    }
+    .form__p {
+    font-size: 130%;
+    }
+    .form__field{
+        font-size: 130%;
+        
+    }
+
+    .form__text textarea{
+        max-width: 70%;
+        font-size: 130%;
+    }
+    .form__text label{
+        font-size: 130%;
+    }
+    .form form{
+        text-align: center;
+    }
 }
 
+@media screen and (min-width:900px){
+    .form__field input {
+        max-width: 50%;
+    }
+    .form__text textarea{
+        max-width: 50%;
+    }
+
+}
 
 
     
