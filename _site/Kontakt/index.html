@@ -38,29 +38,36 @@
         <main class="main">
 
         <section class="form">
+    <h3 class="form__contact">
+        Kontaktní formulář
+    </h3>
+    <p class="form__p">
+        Zde můžete napsat Váš dotaz. Vyplňte kontaktní údaje a já se Vám ozvu zpět.
+    </p>
     <form method="get" action="">
-        <div class="name">
+        
+        
+        <div class="form__field">
             <label for="name">Jméno</label>
             <input type="text" name="name" id="name" autofocus>
-         </div>
+        </div>
 
-        <div class="email">
-            <label for="email">*Váš e-mail</label>
+        <div class="form__field">
+            <label for="email">Váš e-mail*</label>
             <input type="email" name="email" id="email" value="@">
         </div>
 
-        <div class="mobile">
+        <div class="form__field">
             <label for="mobile">Telefon</label>
             <input type="mobile" name="mobile" id="mobile" placeholder="+420 xxx xxx xxx">
         </div>
 
-        <div class="text">
+        <div class="form__text">
             <label for="Text">Váš dotaz</label>
             <input type="text" name="text" id="text">
-        </div>
-
-        <div class="button--submit">
-            <button type="submit">Odeslat</button>
+            <div class="button--submit">
+                <button type="submit">Odeslat</button>
+            </div>
         </div>
     </form>
 </section>
