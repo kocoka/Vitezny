@@ -278,7 +278,7 @@ Portfolio
 }
 
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
     .Photogallery{
         display: grid;
         grid-template-columns: 350px 350px;
@@ -340,6 +340,12 @@ Portfolio
     }
 
     }
+
+    /*
+******************
+Kontakt
+*******************/
+
 
     
 
